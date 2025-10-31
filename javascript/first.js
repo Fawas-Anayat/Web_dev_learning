@@ -36,9 +36,10 @@ let b=20
 if(a==b)
     console.log(true)
 else
-    console.log(false)*/
+    console.log(false)
 
 
 let a=false
 let b= a &&= 10
-console.log(b)
+console.log(b)*/
+
