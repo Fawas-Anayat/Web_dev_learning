@@ -41,5 +41,18 @@ else
 
 let a=false
 let b= a &&= 10
-console.log(b)*/
+console.log(b)
+
+
+let a=" Maths is everything";
+for(let i=0;i<10;i++){
+    console.log(i + a)
+}
+
+
+x=0
+while (x<10){
+    console.log(x);
+    x++
+}*/
 
