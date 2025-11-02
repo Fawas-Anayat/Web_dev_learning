@@ -54,5 +54,26 @@ x=0
 while (x<10){
     console.log(x);
     x++
-}*/
+}
 
+
+//the original documentation of the JS is that of the ECMAscript not the MDN.MDN is from  the mozilla org
+
+// "Use Strict" //all the code is treated as the newer JS
+
+// alert("this is danger")//can only be used in the browser,not in node js
+
+
+
+// Type conversions
+
+let x="10"
+let x_in_number=Number(x)
+console.log(typeof x)
+console.log(typeof x_in_number)
+console.log(x_in_number)*/
+
+
+const name = "usman";
+const count = 10;
+console.log(`Hello my name is ${name} and the repo count is ${count}`);
