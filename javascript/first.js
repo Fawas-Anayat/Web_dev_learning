@@ -71,9 +71,26 @@ let x="10"
 let x_in_number=Number(x)
 console.log(typeof x)
 console.log(typeof x_in_number)
-console.log(x_in_number)*/
+console.log(x_in_number)
 
 
 const name = "usman";
 const count = 10;
 console.log(`Hello my name is ${name} and the repo count is ${count}`);
+
+
+
+let x=10;
+while (x<20){
+    console.log("the number is ",x)
+    x++;
+}
+
+for(let i=0;i<20;i++){
+    if(i%2!=0)
+        continue
+    console.log("the number is ",i)
+}*/
+
+
+
