@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: last center;
+    gap: 50px;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    background-color: coral;
+}
