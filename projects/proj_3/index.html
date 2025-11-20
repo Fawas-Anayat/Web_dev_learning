@@ -1,20 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header class="navbar">
-        <div>
-            <nav>
-                <a href="#about">about</a>
-                <a href="#skills">skills</a>
-            </nav>
-        </div>
-    </header>
-    
+
+  <header class="navbar">
+    <div class="logo">My Name</div>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" class="section about-section">
+    <h1>About Me</h1>
+    <p>Hello! I'm a computer science student. I love building web projects and learning new technologies like Data Science and Machine Learning.</p>
+  </section>
+
+  <section id="projects" class="section projects-section">
+    <h2>My Projects</h2>
+    <div class="project-cards">
+      <div class="project-card">
+        <h3>Project One</h3>
+        <p>A simple web app made with HTML & CSS.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Two</h3>
+        <p>Another project idea: a to-do list or calculator.</p>
+      </div>
+      <!-- You can add more project cards -->
+    </div>
+  </section>
+
+  <section id="skills" class="section skills-section">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Python</li>
+      <li>Data Science Basics</li>
+      <!-- Add more skills -->
+    </ul>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" />
+      <input type="email" name="email" placeholder="Your Email" />
+      <textarea name="message" rows="4" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 My Name. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
