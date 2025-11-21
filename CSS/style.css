@@ -4,7 +4,6 @@ and if we want to create the whole page,then use the grids
 -> grids are the 2D means they have both the rows and the columns movement
 */
 
-
 .navbar{
     display: flex;
     background-color: rgb(17, 15, 15);
@@ -31,7 +30,6 @@ and if we want to create the whole page,then use the grids
 .btn{
     margin-top: 8px;
     height: 38px;
-    height: 
 }
 .abt{
     color: white;
@@ -132,6 +130,7 @@ and if we want to create the whole page,then use the grids
     width: 400px;
     height: 400px;
     background-color: rgb(118, 43, 99);
+   /* grid-column: span 2; it will take a space of the two columns*/
 }
 
 .b5{
@@ -144,4 +143,5 @@ and if we want to create the whole page,then use the grids
     width: 400px;
     height: 400px;
     background-color: rgb(9, 165, 243);
+    grid-column:;
 }
