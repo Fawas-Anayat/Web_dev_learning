@@ -61,7 +61,9 @@
 
 .container{
     display: flex;
-    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content:space-around;
     gap: 20px;
 
 }
