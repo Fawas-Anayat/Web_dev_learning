@@ -100,3 +100,33 @@ and if we want to create the whole page,then use the grids
     height: 400px;
     background-color: rgb(241, 85, 12);
 }
+
+.containerG{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 500px 500px;
+    gap: 20px;
+    row-gap: 40px;
+    column-gap: 40px;
+}
+
+.b1{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(203, 32, 117);
+    grid-column-start: 1;
+}
+
+.b2{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(141, 165, 5, 0.966);
+    grid-column-start: 2;
+}
+
+.b3{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(9, 165, 243);
+    grid-column-start: 3;
+}
