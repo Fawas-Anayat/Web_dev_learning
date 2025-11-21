@@ -1,3 +1,10 @@
+/*flexboxes are generally used when we want to make some small UI component on the whole page
+and if we want to create the whole page,then use the grids
+-> flexxbox is the 1D means having just the row or the column movment
+-> grids are the 2D means they have both the rows and the columns movement
+*/
+
+
 .navbar{
     display: flex;
     background-color: rgb(17, 15, 15);
@@ -62,15 +69,34 @@
 .container{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-content:space-around;
+    justify-content:center;   /*horizontal alignment of the content*/
+    align-items:flex-end;    /*vertical alignmrnmt of the content when the flex-direction is row*/
     gap: 20px;
-
+    flex-basis: 200px;
+    flex-shrink: 2px;
 }
-
-.box{
-    height: 400px;
+.box_1{
     width: 400px;
+    height: 400px;
     background-color: blue;
-    font-size: 35px;
+}
+.box_2{
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+}
+.box_3{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 81, 0);
+}
+.box_4{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(224, 220, 231);
+}
+.box_5{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(241, 85, 12);
 }
